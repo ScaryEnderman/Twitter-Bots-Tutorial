@@ -56,6 +56,7 @@ pass them into bots.rb as string into: (Don't share them with anybody)
 (Further Information: https://devcenter.heroku.com/articles/quickstart)
 ```
 
+
 ## STEP 6 - First Bot on Heroku
 ```
 > Inside your generated folder with your code from STEP 2 and STEP 4 create a textfile and save it as
@@ -81,5 +82,35 @@ $ heroku create
 ```
 ``` sh
 $ git push heroku master
+```
+```
+> Start its process manually in heroku by entering your app and dragging the dynos bar to 1
+Or by typing this code: (easier)
+```
+``` sh
+$ heroku ps:scale web=1
+```
+
+
+## STEP 7 - Updating your folder to Heroku
+```
+> Open your .bat file again and type these commands in:
+```
+``` sh
+$ git init
+$ git add .
+$ git commit -m "init"
+
+$ git push heroku master
+```
+
+## STEP 8 - Multiple Bots
+```
+> This step is rather easy. Just make a new yourname.rb file and code your second/third etc. bot.
+
+> Open run.rb and add this line under 'require relative 'bots':
+```
+``` ruby
+require relative 'yourname'
 ```
 
