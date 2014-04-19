@@ -58,7 +58,28 @@ pass them into bots.rb as string into: (Don't share them with anybody)
 
 ## STEP 6 - First Bot on Heroku
 ```
+> Inside your generated folder with your code from STEP 2 and STEP 4 create a textfile and save it as
+xy.bat (name doesn't matter)
 
+> Double click the Batch file you just created and login to heroku: https://devcenter.heroku.com/articles/quickstart
 
-
+> Now type the following three commands:
 ```
+``` sh
+$ git init
+$ git add .
+$ git commit -m "init"
+```
+```
+> Create your app on heroku:
+```
+``` sh
+$ heroku create
+```
+```
+> Finally deploy your code online:
+```
+``` sh
+$ git push heroku master
+```
+
