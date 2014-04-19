@@ -95,6 +95,7 @@ $ heroku ps:scale web=1
 ## STEP 7 - Updating your folder to Heroku
 ```
 > Open your .bat file again and type these commands in:
+(Info for Ruby on Heroku: https://devcenter.heroku.com/articles/getting-started-with-ruby)
 ```
 ``` sh
 $ git init
