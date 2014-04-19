@@ -6,13 +6,13 @@ Twitter-Bots-Tutorial
 
 ## STEP 1 - Ruby
 ```
-> First you need to install Ruby. Best way is by downloading from http://railsinstaller.org/en.
+> First you need to install Ruby. Best way is by downloading [Railinstaller](http://railsinstaller.org/en)
 ```
 
 
 ## STEP 2 - Setup
 ```
-> Go to Mispy's framework -> https://github.com/mispy/twitter_ebooks,
+> Go to [Mispy's framework](https://github.com/mispy/twitter_ebooks),
 and download the .ZIP via the download button on the right side.
 
 > On the side there is a tutorial for setting up your bot.
@@ -23,7 +23,7 @@ and download the .ZIP via the download button on the right side.
 ```
 > Create your bot's Twitter account. (You will need to confirm your email!)
 
-> Go to https://dev.twitter.com/apps/ and log in with your new account.
+> Go to [dev.twitter](https://dev.twitter.com/apps/) and log in with your new account.
 
 > Create a new app, go to 'Permissions' Tab and choose 'Read and Write'.
 
@@ -44,7 +44,7 @@ pass them into bots.rb as string into: (Don't share them with anybody)
 ```
 > Write your first bots code, just edit bots.rb, which requires a bit of coding knowledge. :)
 
-> Twitter Bot examples for this can also be found on https://github.com/mispy/twitter_ebooks.
+> Twitter Bot examples for this can also be found on [Mispy's framework](https://github.com/mispy/twitter_ebooks)
 ```
 
 
@@ -52,8 +52,8 @@ pass them into bots.rb as string into: (Don't share them with anybody)
 ```
 > Go to http://heroku.com/ and create an account.
 
-> Install Heroku's Toolbelt: https://toolbelt.heroku.com/
-(Further Information: https://devcenter.heroku.com/articles/quickstart)
+> Install [Heroku's Toolbelt](https://toolbelt.heroku.com/)
+[Further Information](https://devcenter.heroku.com/articles/quickstart)
 ```
 
 
@@ -62,7 +62,7 @@ pass them into bots.rb as string into: (Don't share them with anybody)
 > Inside your generated folder with your code from STEP 2 and STEP 4 create a textfile and save it as
 xy.bat (name doesn't matter)
 
-> Double click the Batch file you just created and login to heroku: https://devcenter.heroku.com/articles/quickstart
+> Double click the Batch file you just created and [login to Heroku](https://devcenter.heroku.com/articles/quickstart)
 
 > Now type the following three commands:
 ```
@@ -95,7 +95,7 @@ $ heroku ps:scale web=1
 ## STEP 7 - Updating your folder to Heroku
 ```
 > Open your .bat file again and type these commands in:
-(Info for Ruby on Heroku: https://devcenter.heroku.com/articles/getting-started-with-ruby)
+([Info for Ruby on Heroku](https://devcenter.heroku.com/articles/getting-started-with-ruby))
 ```
 ``` sh
 $ git init
